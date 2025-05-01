@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+//variables
+
+$color1: #22B573;
+$color2: #2c2c2c;
+$color3: #ffffff;
+$size1: 1.2em;
+$size2: 1.5em;
+$size3: 1.8em;
+$size4: 2.1em;
+$size5: 2.4em;
+$size6: 2.7em;
+$font1: lexend;
+
+body{
+    background-color: $color2;
+    font-family:'lexend';
+}
+
+
+p{
+    color: $color3;
+    font-size: $size1;
+}
+h1{
+    color: $color3;
+    font-size: $size6;
+}
+h2{
+    color: $color1;
+    font-size: $size5:;
+}
+h3{
+    color: $color1;
+    font-size: $size4;
+}
+h4{
+    background-color: $color2;
+    color: $color3;
+    font-size: $size3; 
+}
+h5{
+    background-color: $color3;
+    color: $color1;
+    font-size: $size2;
+    padding: 1%;
+    text-align: center;
+}
+h6{
+    background-color: $color3;
+    color: $color2;
+    font-size: $size1;
+    padding: 2%;
+}
+
+// importaciones
+
+@import "_menu"
+@import "_galeria"
+@import "_galery"
+@import "_contenido"
+@import "_articulo"
+@import "_seccion"
+@import "_seccion1"
+@import "_seccion2"
+@import "_imagen"
+@import "_img"
+@import "_carrusel-perdidos"
+@import "_carrusel-encontrados"
+@import "_carousel-indicators"
+@import "_container"
+@import "_contenedor"
+@import "_boton-loencontre"
+@import "_boton-semeperdio"
+@import "_boton-enviar"
+@import "_item1"
+@import "_item2"
+@import "_item3"
+@import "_caja"
+@import "_sidebar"
+@import "_main-content"
+@import "_postcampaña"
+@import "_formulario"
+@import "_footer"
+@import "_redes"
+@import "_fa"
+@import "_autor"
+@import "_subir"
+
+
+//Anidaciones
+.menu
+    & ul
+    display: flex;
+    align-items: center;
+
+    & li
+    margin-right: 1.5rem;
+
+    & a:hover
+    color: #FBB03B;
+
+
