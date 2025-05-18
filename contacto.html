@@ -92,62 +92,99 @@
     </div>
   </header>
 
+<div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8 col-lg-6">
+      <div class="card shadow p-4">
+        <h1 class="text-center mb-3">Escríbenos</h1>
+        <p class="text-center mb-4">Déjanos un mensaje y te responderemos en breve.</p>
 
-<h5>CONTACTO</h5>
-<div class="contacto">
-    
-  <div class="main_image"><iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.mx/maps?f=q&amp;source=s_q&amp;hl=es&amp;geocode=&amp;q=Antamina+Mine,+Huari,+Ancash,+Per%C3%BA&amp;aq=0&amp;oq=antamina&amp;sll=25.860044,-97.503823&amp;sspn=0.03464,0.066047&amp;t=m&amp;gl=mx&amp;ie=UTF8&amp;hq=Antamina+Mine,+Huari,+Ancash,+Per%C3%BA&amp;ll=-9.542562,-77.05553&amp;spn=0.040544,0.069866&amp;output=embed"></iframe></div>
-  
+        <form action="/submit" method="post">
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" name="nombre" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="telefono" class="form-label">Teléfono</label>
+            <input type="tel" class="form-control" id="telefono" name="telefono" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+          </div>
+
+          <div class="d-grid">
+            <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+          </div>
+
+          <!-- Alternativa con WhatsApp -->
+          <div class="text-center mt-3">
+            <a class="btn btn-success" href="https://wa.me/51954799357" target="_blank">
+              Contactar por WhatsApp
+            </a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
 </div>
 
 
-<div class="caja">
-  <main class="contenedor">
-      <aside class="sidebar"></aside>
-      <section class="main-content"></section>    
-          <p>Encuéntranos en: Psje. Manrique 106 Lara Socabaya</p>
-          <p>Llámanos al: 954799357</p>
-
-
-          
-  </main>
-</div>
-
-  
-  <div class="formulario">
-        <div class="seccion">
-            <div>
-                <h1>Hablemos ;) </h1>
-                <br>
-                <p>Déjanos un mensaje y te responderemos en breve </p>
-                <br>
-                <form action="/submit" method="post"><!--etiqueta contenedora-->
-                    <label for="nombre"><h4>Nombre</h4></label>
-                    <input type="text" name="nombre"id="nombre"></input>
-                <br>
-                    <label for="teléfono"><h4>Teléfono</h4></label>
-                    <input type="telefono" name="telefono"id="telefono"></input>
-                <br>
-                    <label for="mensaje"><h4>Mensaje</h4></label>
-                    <textarea name="mensaje" id="mensaje"></textarea>
-                </form>
-                <table>
-                   
-                </table>
-            </nav>
-                    <!--botones-->
-                    <br>
-                    <a class="boton-enviar" href= "http://wa.me/51954799357">Enviar</a>
-          
-                    
-                    <br>
+<div class="container-fluid my-5">
+    <!-- Tarjeta con datos de contacto -->
+    <div class="row justify-content-center mb-4">
+      <div class="col-12 col-md-10">
+        <div class="card shadow p-4">
+          <div class="row text-center">
+            <h3 class="text-center mb-3">Encuéntranos en</h3>
+            <!-- Dirección -->
+            <div class="col-12 col-md-4 mb-4 mb-md-0">
+              <div class="icon-circle mx-auto">
+                <i class="bi bi-geo-alt-fill"></i>
+              </div>
+              <h5 class="fw-bold mt-2">Dirección</h5>
+              <p class="mb-0">Psje. Manrique 106 Lara</p>
+              <p class="mb-0">Socabaya, Arequipa - Perú</p>
             </div>
+            <!-- Teléfono -->
+            <div class="col-12 col-md-4 mb-4 mb-md-0">
+              <div class="icon-circle mx-auto">
+                <i class="bi bi-telephone-fill"></i>
+              </div>
+              <h5 class="fw-bold mt-2">Teléfono</h5>
+              <p class="mb-0">+51 954 799 357</p>
+            </div>
+            <!-- Correo -->
+            <div class="col-12 col-md-4">
+              <div class="icon-circle mx-auto">
+                <i class="bi bi-envelope-fill"></i>
+              </div>
+              <h5 class="fw-bold mt-2">Correo</h5>
+              <p class="mb-0">contacto@buscadog.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-       
-    </div>        
+  <!-- Mapa -->
+  <div class="row">
+    <div class="col-12">
+      <div class="ratio ratio-16x9">
+        <iframe 
+          src="https://www.google.com/maps?q=manrique+106+socabaya+arequipa+peru&output=embed"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+  </div>
 </div>
+  
 
-</div>
 <!--Footer -->
 
 <footer class="bg-dark text-white pt-4 mt-5">
