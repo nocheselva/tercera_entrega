@@ -145,14 +145,13 @@ body {
   border-radius: 50px;
   text-decoration: none;
   transition: all 0.3s ease;
-  font-color
 }
 
 .btn-contactar{
     font-family:'lexend';
     padding: 10px;
     background-color:#22B573;
-    color: #ffffff
+    color: #ffffff;
     border: 1px solid;
     border-radius: 50px;
 }
@@ -250,13 +249,11 @@ a, li{
     font-family:'lexend';
     padding: 10px;
     background-color:#22B573;
-    color: #ffffff
+    color: #ffffff;
     border: 1px solid;
     border-radius: 50px;
 }
-.imagen{
-    
-}
+
 
 h1{
    color:#22B573 !important; 
@@ -643,11 +640,10 @@ footer p{
     
 
   }
-  .fa-instagram, .fa-whatsapp, .fa-brands: {
+  .fa-instagram, .fa-whatsapp, .fa-brands {
     padding: 10px;
   }
 
-  }
 
 .autor{
     padding: 10px;

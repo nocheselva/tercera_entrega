@@ -29,7 +29,7 @@ h1{
 }
 h2{
     color: $color1;
-    font-size: $size5:;
+    font-size: $size5;
 }
 h3{
     color: $color1;
@@ -56,7 +56,9 @@ h6{
 
 // importaciones
 
-@import "_menu"
+
+@import "_body"
+ "_menu"
 @import "_galeria"
 @import "_galery"
 @import "_contenido"
