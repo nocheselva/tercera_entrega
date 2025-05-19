@@ -412,7 +412,7 @@ h7 {
   border-radius: 10px;
 }
 
-/* Opcional: color blanco para el título si el fondo es verde */
+/* Opcional: color blanco para el título */
 .noticias h3 {
   color: white;
 }
@@ -434,13 +434,6 @@ h7 {
   background-color: #1d9e60;
   border-color: #1d9e60;
 }
-
-
-
-
-
-
-
 
 
 .galery {
@@ -493,11 +486,6 @@ img {
     grid-template-columns: 1fr 1fr;
   } 
 }
-
-
-
-
-
 
 /*Estilo flexbox*/
 
@@ -568,7 +556,7 @@ img {
     box-shadow: 0 4px 15px;
     padding: 1rem;
     padding-bottom: 2rem;
-    margin: 0rem 1rem; /* pequeño espacio a los lados */
+    margin: 0rem 1rem; 
   }
 /*texto de carrusel--*/
 
